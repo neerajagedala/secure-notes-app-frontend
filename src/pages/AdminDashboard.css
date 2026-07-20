@@ -1,0 +1,76 @@
+.admin-dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.admin-dashboard .header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.admin-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+.admin-section h2 {
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 0.7rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  color: #777;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.role-badge {
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.role-admin {
+  background-color: #ede9fe;
+  color: #6d28d9;
+}
+
+.role-user {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.admin-table .delete-btn {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #fecaca;
+  background: white;
+  color: #dc2626;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.admin-table .delete-btn:hover {
+  background-color: #fef2f2;
+}
